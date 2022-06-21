@@ -1,0 +1,28 @@
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph {
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+.button-group {
+    width: 10%;
+    display: flex;
+    flex-basis: border-box;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    color: cornflowerblue;
+    font-size: 24px;
+    border: 2px solid cornflowerblue;
+    border-radius: 8px;
+    padding: 12px 18px;
+}
