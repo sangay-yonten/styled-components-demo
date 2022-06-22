@@ -13,11 +13,11 @@ const Button = styled.button`
   background: ${props => props ? "palevioletred" : "white"};
   color: ${props => props ? "white" : "palevioletred"};
 
-  font-size: 1em;
-  margin: 1em;
-  padding: 0.25em 1em;
+  font-size: 24px;
+  margin: 12px;
+  padding: 12px 24px;
   border: 2px solid palevioletred;
-  border-radius: 3px;
+  border-radius: 4px;
 `;
 
 const PropsComponent = () => {
