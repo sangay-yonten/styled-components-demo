@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import PropsComponent from './main/props';
 import Counter from './main/simplified';
 import ThemeProviderComponent from './main/theme-provider';
+import ThemeMui from "./main/theme-mui";
 
 const Title = styled.h1`
   font-size: 34px;
@@ -25,10 +26,13 @@ const App = () => {
           Hello World!
         </Title>
         {/* Props Demo */}
-        <PropsComponent/>
+        <PropsComponent />
         {/* Simplified code demo */}
-        <Counter/>
-        <ThemeProviderComponent/>
+        <Counter />
+        {/* ThemeProvider demo */}
+        <ThemeProviderComponent />
+        {/* styled mui demo */}
+        <ThemeMui />
       </Wrapper>
   );
 }
