@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropsComponent from './main/props';
-import Counter from "./main/simplified";
+import Counter from './main/simplified';
+import ThemeProviderComponent from './main/theme-provider';
 
 const Title = styled.h1`
   font-size: 34px;
@@ -23,8 +24,11 @@ const App = () => {
         <Title>
           Hello World!
         </Title>
+        {/* Props Demo */}
+        <PropsComponent/>
         {/* Simplified code demo */}
-        {/*<Counter/>*/}
+        <Counter/>
+        <ThemeProviderComponent/>
       </Wrapper>
   );
 }
