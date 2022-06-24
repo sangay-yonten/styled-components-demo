@@ -13,6 +13,7 @@ const Button = styled.button`
   background: ${props => props ? "palevioletred" : "white"};
   color: ${props => props ? "white" : "palevioletred"};
 
+  cursor: pointer;
   font-size: 24px;
   margin: 12px;
   padding: 12px 24px;

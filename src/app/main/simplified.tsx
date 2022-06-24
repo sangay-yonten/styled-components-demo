@@ -21,6 +21,7 @@ const ButtonGroup = styled.div`
   align-items: center;
 `;
 const Button = styled.button`
+  cursor: pointer;
   color: lightseagreen;
   font-size: 24px;
   border: 2px solid lightseagreen;
