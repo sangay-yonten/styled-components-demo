@@ -26,13 +26,13 @@ const App = () => {
           Hello World!
         </Title>
         {/* Props Demo */}
-        <PropsComponent />
+        {/*<PropsComponent />*/}
         {/* Simplified code demo */}
         <Counter />
         {/* ThemeProvider demo */}
-        <ThemeProviderComponent />
+        {/*<ThemeProviderComponent />*/}
         {/* styled mui demo */}
-        <ThemeMui />
+        {/*<ThemeMui />*/}
       </Wrapper>
   );
 }
