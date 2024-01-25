@@ -1,4 +1,8 @@
 # Styled Components Demo App
+Explore the power of [styled-components](https://styled-components.com/) in this [React](https://react.dev/) project designed to deepen your understanding of styling in React applications. Styled-components is a popular library that allows you to write CSS in your [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), offering a more dynamic and modular approach to styling React components.
+
+In this project, you'll create a series of interactive components, each showcasing different features and use cases of styled-components. From basic styling to theming and dynamic styling based on props, you'll gain hands-on experience with this innovative styling solution.
+
 ## Available Scripts
 
 In the project directory, you can run:
